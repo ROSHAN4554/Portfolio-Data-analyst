@@ -17,7 +17,14 @@ function Projects() {
                         whileInView={{opacity:1,x:0}}
                         transition={{duration: 1}}
                         className="w-full max-w-xl">
-                            <h6 className="text-white mb-2 font-semibold">{project.title}</h6>
+                            <h6 className="text-white mb-2 font-semibold">{project.title}
+                            {project.link && (<span className="ms-4">
+                                <a href={project.link}>
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                </span>
+                            )}
+                            </h6>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
                             {project.technologies.map((tech,index)=>(
                                 <span key={index} className="mr-2 p-1 rounded bg-neutral-900 text-purple-900 text-sm font-medium">{tech}</span>

@@ -1,4 +1,5 @@
-import {animate, motion} from 'framer-motion'
+import {animate, motion} from 'framer-motion';
+import Pic from '../assets/tailwind-logo.png';
 
 const iconvariants = (duration)=>({
     initial: {y: -10},
@@ -60,6 +61,20 @@ function Technologies() {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <i className="fa-brands fa-envira fa-rotate-by text-7xl text-green-900 mongo"></i>
+                </motion.div>
+                <motion.div 
+                    variants={iconvariants(6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <i className="fa-brands fa-bootstrap text-7xl text-violet-950"></i>
+                </motion.div>
+                <motion.div 
+                    variants={iconvariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <img className='tailwind' src={Pic} alt='tailwind' width="75px" height="90px" />
                 </motion.div>
             </motion.div>
         </div>
