@@ -1,4 +1,4 @@
-import Pic from '../assets/Hero_img.png'
+import Pic from '../assets/HERO-GIF.webp'
 import { motion } from "framer-motion"
 
 const container = (delay)=>({
