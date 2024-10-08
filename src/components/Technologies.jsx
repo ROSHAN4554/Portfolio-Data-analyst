@@ -77,14 +77,14 @@ function Technologies() {
                     <img className='tailwind' src={Pic} alt='tailwind' width="75px" height="90px" />
                 </motion.div>
                 <motion.div 
-                    variants={iconvariants(6)}
+                    variants={iconvariants(2.5)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <i className="fa-brands fa-github text-7xl text-violet-950"></i>
                 </motion.div>
                 <motion.div 
-                    variants={iconvariants(6)}
+                    variants={iconvariants(4)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
