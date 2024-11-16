@@ -19,7 +19,7 @@ export const PROJECTS = [
         title: "StarGaze",
         description: "Developed a full-stack MERN (MongoDB, Express.js, React, Node.js) web application that provides users with access to NASA’s Astronomy Picture of the Day. The application features a dynamic search functionality, allowing users to search by date, title, month, or year, and includes infinite scrolling for a seamless gallery experience. The backend is designed with a RESTful API to fetch and store APOD data in MongoDB, ensuring efficient data retrieval and storage. The frontend is built with React, offering a responsive user interface and image galleries, and integrates user authentication for secure access to personalized features.",
         technologies: ["HTML","CSS","JS","NodeJS","ExpressJS","ReactJS","MongoDB"],
-        link: "#"
+        link: "https://github.com/Pratik5357/StarGaze"
     },
     {
         title: "Tempora",
