@@ -14,12 +14,12 @@ function Contact() {
                 initial={{opacity:0,x: -100}}
                 whileInView={{opacity:1,x:0}}
                 transition={{duration: 1}}
-                className="my-4">Kolhapur, Maharashtra, India 416212</motion.p>
+                className="my-4">Pune , Maharashtra, India 416212</motion.p>
                 <motion.a 
                 initial={{opacity:0,x: -100}}
                 whileInView={{opacity:1,x:0}}
                 transition={{duration: 1}}
-                className="text-white">pratikkumbhar008@gmail.com</motion.a>
+                className="text-white">roshanjadhav4946@gmail.com</motion.a>
             </div>
         </div>
     )
