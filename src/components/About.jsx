@@ -15,8 +15,8 @@ function About() {
                         whileInView={{x: 0,opacity: 1}}
                         transition={{duration: 1}}
                         className="flex justify-center lg:justify-start w-full">
-                        <p className="text-white text-center">I’m Pratik, a Full Stack Developer with a passion for crafting responsive and engaging web applications. With experience in both front-end technologies like React and Vue.js and back-end frameworks like Node.js and Django, I enjoy building end-to-end solutions that enhance user experiences.
-I believe in the importance of clean code and collaborative problem-solving. Constantly seeking to learn and grow, I stay updated with the latest industry trends and technologies. Outside of development, I enjoy Gaming.<br/><br/>Let’s connect and explore how we can bring your ideas to life!</p>
+                        <p className="text-white text-center">I’m Roshan , a data analyst with a passion for turning complex datasets into actionable insights. With expertise in data visualization, statistical analysis, and programming languages like Python and SQL, I specialize in uncovering trends and optimizing business decisions. Outside of development,
+                            I enjoy Gaming.<br/><br/>Let’s connect and explore how we can bring your ideas to life!</p>
                     </motion.div>
                 </div>
             </div>
